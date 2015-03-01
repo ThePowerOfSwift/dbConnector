@@ -14,6 +14,8 @@
 		F615B5011AA25F58004CBF2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F615B5001AA25F58004CBF2D /* Images.xcassets */; };
 		F615B5041AA25F58004CBF2D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F615B5021AA25F58004CBF2D /* LaunchScreen.xib */; };
 		F615B5101AA25F58004CBF2D /* dbConnectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615B50F1AA25F58004CBF2D /* dbConnectorTests.swift */; };
+		F615B51C1AA2D0FE004CBF2D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615B51B1AA2D0FE004CBF2D /* ProfileViewController.swift */; };
+		F615B51E1AA2D172004CBF2D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615B51D1AA2D172004CBF2D /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		F615B5091AA25F58004CBF2D /* dbConnectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dbConnectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F615B50E1AA25F58004CBF2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F615B50F1AA25F58004CBF2D /* dbConnectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dbConnectorTests.swift; sourceTree = "<group>"; };
+		F615B51B1AA2D0FE004CBF2D /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F615B51D1AA2D172004CBF2D /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +83,11 @@
 		F615B4F31AA25F58004CBF2D /* dbConnector */ = {
 			isa = PBXGroup;
 			children = (
+				F615B51B1AA2D0FE004CBF2D /* ProfileViewController.swift */,
 				F615B4F61AA25F58004CBF2D /* AppDelegate.swift */,
 				F615B4FB1AA25F58004CBF2D /* ViewController.swift */,
 				F615B4FD1AA25F58004CBF2D /* Main.storyboard */,
+				F615B51D1AA2D172004CBF2D /* RegisterViewController.swift */,
 				F615B5001AA25F58004CBF2D /* Images.xcassets */,
 				F615B5021AA25F58004CBF2D /* LaunchScreen.xib */,
 				F615B4F81AA25F58004CBF2D /* dbConnector.xcdatamodeld */,
@@ -216,7 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F615B4FC1AA25F58004CBF2D /* ViewController.swift in Sources */,
+				F615B51E1AA2D172004CBF2D /* RegisterViewController.swift in Sources */,
 				F615B4F71AA25F58004CBF2D /* AppDelegate.swift in Sources */,
+				F615B51C1AA2D0FE004CBF2D /* ProfileViewController.swift in Sources */,
 				F615B4FA1AA25F58004CBF2D /* dbConnector.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +419,7 @@
 				F615B5151AA25F58004CBF2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F615B5161AA25F58004CBF2D /* Build configuration list for PBXNativeTarget "dbConnectorTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				F615B5181AA25F58004CBF2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
